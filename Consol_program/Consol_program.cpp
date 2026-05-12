@@ -6,13 +6,13 @@
 
 int main()
 {
-    int hollow_count=0;
 
 
-
-    while(hollow_cont > 10){
+    for(int =0;i<100;i++){
 
         std::cout << "Hello World!\n";
+
+
     }
 }
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
