@@ -6,9 +6,15 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+    int hollow_count=0;
 
+
+
+    while(hollow_cont > 10){
+
+        std::cout << "Hello World!\n";
+    }
+}
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー
 
