@@ -3,17 +3,41 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
+ 
 
 
-    for(int =0;i<100;i++){
+    //if文
+    #if 0
+    auto forward = std::string("Hello world!");
+    auto reverse = forward;
 
-        std::cout << "Hello World!\n";
+    std::reverse(reverse.begin(), reverse.end());
 
 
-    }
+    //#else
+    //    // C
+    //    const char* forward = "Hello World";
+    //    int len = strlen(forward);
+    //    char* reverse = (char*)malloc(len + 1);
+    //
+    //    reverse[len] = 0;
+    //
+    //    for (int i = 0; i < len; i++) {
+    //        reverse[i] = forwardlen[len - 1 - i];
+    //    }
+    
+
+    //#endif
+    //    auto i = 10;
+    //
+    //    while()
+
+
+
 }
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー
